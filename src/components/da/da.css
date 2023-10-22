@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.da{
+    overflow-y: auto; /* Add vertical scroll when content overflows */
+}
+
+.da h2{ 
+    position: sticky;
+}
+
+
+
+.da__container {
+    margin: 1.25rem auto;
+    columns: 4;
+    column-gap: 2.5rem; /* Added 'rem' unit to column-gap */
+    display:inline-block;
+    padding-left: 10rem;
+    padding-right: 10rem;
+
+}
+
+.da__container .da__box {
+    margin-bottom: 2rem;
+    break-inside: avoid;
+
+}
+
+.da__container .da__box img {
+    max-width: 100%; /* This allows images to scale within their parent */
+    border-radius: 1rem;
+}
+
+
+/* ============ MEDIA QUERIES (MID DEVICES)========== */
+@media screen and (max-width: 1024px) {
+    .da__container {
+        width: calc(100% -40px);
+        columns: 3;
+        margin: 0;
+        padding: 2rem;
+    }
+
+    .da__container .da__box img {
+        width: 100%;
+        height: auto;
+    }
+
+    .da__container .da__box {
+        width: 100%;
+        height: auto;
+    }
+
+
+
+}
+
+
+
+/* ============ MEDIA QUERIES (small DEVICES)========== */
+@media screen and (max-width: 600px) {
+    .da__container {
+        columns: 2;
+        margin: 0;
+        padding: 2rem;
+    }
+
+}
