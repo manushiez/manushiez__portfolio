@@ -108,14 +108,27 @@
   .skills__category {
     width: 100%;
     margin: 0.5rem 0;
+    font-size: 0.5rem;
   }
   .skills__container {
     width: 100%;
+    padding: 0;
+    margin: 0;
   }
 
   .skills {
     margin: 2rem;
     height: auto; /* Set height to auto to allow scroll */
     overflow-y: auto; /* Add vertical scroll when content overflows */
+    font-size: 0.5rem;
+  }
+
+  .skills__content{
+    padding: 0.5rem;
+    margin: 0;
+  }
+
+  .skills__icon {
+    font-size: 1rem;
   }
 }

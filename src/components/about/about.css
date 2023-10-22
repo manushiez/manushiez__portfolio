@@ -113,6 +113,7 @@
     }
 
     .about__content p {
-        margin: 1rem
+        margin: 1rem;
+        font-size: 0.8rem;
     }
 }

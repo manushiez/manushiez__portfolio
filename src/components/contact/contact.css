@@ -92,5 +92,13 @@ input, textarea {
     .container.container__contact {
         grid-template-columns: 1fr;
         overflow-y: auto;
+        width: 90vw;
+        height: auto;
+
+    }
+
+    .contact {
+        overflow-y: auto;
+        height: 100vh;
     }
 }
