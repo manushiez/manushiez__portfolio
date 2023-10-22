@@ -20,7 +20,7 @@ const Header = () => {
     <div className='header__content'>
 
       <h5>Hello I'm</h5>
-      <h1 className='name'>Manushi Tyagi 🪭</h1>
+      <h1 className='name'>Manushi Tyagi </h1>
       <h5 className='text-black'>Computer Science student , FullStack Developer , Digital artist and a digital comic enthusiast  </h5>
       <CTA />
     </div>
@@ -29,7 +29,7 @@ const Header = () => {
           <img src={me} alt="header__me" />
         </div> */}
 
-    <a href='#contact' className='scroll__down'>Scroll Down</a>
+    {/* <a href='#contact' className='scroll__down'>Scroll Down</a> */}
   </div>
     </section >
   );
